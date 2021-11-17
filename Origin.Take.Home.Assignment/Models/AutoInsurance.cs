@@ -20,7 +20,7 @@ namespace Origin.Take.Home.Assignment.Models
             CalculateTotalScore();
 
             var fiveYearsAgo = DateTime.Now.AddYears(-5).Year;
-            if (CustomerVehicle.Year >= fiveYearsAgo)
+            if (CustomerVehicle?.Year >= fiveYearsAgo)
                 IncrementTotalScore(1);
         }
     }

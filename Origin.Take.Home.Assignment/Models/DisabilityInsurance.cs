@@ -22,7 +22,7 @@ namespace Origin.Take.Home.Assignment.Models
 
             CalculateTotalScore();
 
-            if (CustomerHouse.OwnershipStatus == OwnershipStatus.Mortgaged)
+            if (CustomerHouse?.OwnershipStatus == OwnershipStatus.Mortgaged)
                 IncrementTotalScore(1);
 
             if (CustomerDependents > 0)

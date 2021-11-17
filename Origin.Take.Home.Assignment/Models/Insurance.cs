@@ -34,11 +34,10 @@ namespace Origin.Take.Home.Assignment.Models
         {
             if (CustomerAge < 30)
                 DecrementTotalScore(2);
-
-            if (CustomerAge <= 40)
+            else if (CustomerAge <= 40)
                 DecrementTotalScore(1);
 
-            if (CustomerIncome > 20000)
+            if (CustomerIncome >= 200000)
                 DecrementTotalScore(1);
         }
 
