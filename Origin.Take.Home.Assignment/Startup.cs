@@ -4,6 +4,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
+using Origin.Take.Home.Assignment.Services;
 using System.Text.Json.Serialization;
 
 namespace Origin.Take.Home.Assignment
@@ -31,6 +32,8 @@ namespace Origin.Take.Home.Assignment
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Origin.Take.Home.Assignment", Version = "v1" });
             });
+
+            services.AddScoped<RiskProfileService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
