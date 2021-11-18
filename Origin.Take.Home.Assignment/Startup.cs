@@ -42,9 +42,10 @@ namespace Origin.Take.Home.Assignment
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Origin.Take.Home.Assignment v1"));
             }
+
+            app.UseSwagger();
+            app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Origin.Take.Home.Assignment v1"));
 
             app.UseHttpsRedirection();
 
