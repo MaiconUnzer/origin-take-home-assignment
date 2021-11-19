@@ -20,3 +20,7 @@
 1.4. Open the url http://localhost:$your_machine_port_available/swagger
 
 *$your_machine_available_port: replace this variable with the port that you are running the container created previously*
+
+
+### 2. Main technical decisions made
+
