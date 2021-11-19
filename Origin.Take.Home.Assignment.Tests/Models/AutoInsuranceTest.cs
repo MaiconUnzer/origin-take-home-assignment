@@ -15,7 +15,7 @@ namespace Origin.Take.Home.Assignment.Tests.Models
             var baseScore = 2;
             var customerAge = 20;
             var customerIncome = 20000;
-            Vehicle customerVehicle = null;
+            Vehicle customerVehicle = null; 
             var autoInsurance = new AutoInsurance(baseScore, customerAge, customerIncome, customerVehicle);
 
             //Act

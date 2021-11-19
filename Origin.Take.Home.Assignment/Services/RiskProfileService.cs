@@ -11,7 +11,7 @@ namespace Origin.Take.Home.Assignment.Services
     {
         public RiskProfileResponse GetRiskProfile(RiskProfileRequest riskProfileRequest)
         {
-            var baseScore = riskProfileRequest.RiskQuestions?.Count(x => x == true) ?? 0;
+            var baseScore = riskProfileRequest.RiskQuestions?.Count(x => x == 1) ?? 0;
 
             Insurance homeInsurance = new HomeInsurance(baseScore, riskProfileRequest.Age, riskProfileRequest.Income, riskProfileRequest.House);
             Insurance autoInsurance = new AutoInsurance(baseScore, riskProfileRequest.Age, riskProfileRequest.Income, riskProfileRequest.Vehicle);

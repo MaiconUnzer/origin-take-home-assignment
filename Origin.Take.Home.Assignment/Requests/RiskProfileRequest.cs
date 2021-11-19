@@ -20,7 +20,7 @@ namespace Origin.Take.Home.Assignment.Requests
         public MaritalStatus MaritalStatus { get; set; }
 
         [JsonPropertyName("risk_questions")]
-        public bool[] RiskQuestions { get; set; }
+        public int[] RiskQuestions { get; set; }
 
         [JsonPropertyName("vehicle")]
         public Vehicle Vehicle { get; set; }
