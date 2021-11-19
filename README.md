@@ -9,11 +9,11 @@
 
 `> cd origin-take-home-assignment/`
 
-1.3. Inside your terminal type the following code:
+1.3. Inside your terminal type the following codes:
 
-`docker build -t origin/take_home_assignment .`
+`> docker build -t origin/take_home_assignment .`
 
-`docker run -p $your_machine_available_port:80 --name TakeHomeAssignment origin/take_home_assignment`
+`> docker run -p $your_machine_available_port:80 --name TakeHomeAssignment origin/take_home_assignment`
 
 *$your_machine_available_port: replace this variable with the port that you want run the container*
 
