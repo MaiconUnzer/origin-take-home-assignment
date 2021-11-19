@@ -26,7 +26,7 @@
 
 - A class for each insurance type
 
-- Default rules and operations inside de base class that are used by all insurance type class that inherit from it
+- Default rules and operations inside the base class that are used by all insurance type class that inherit from it
 
 - Specific rules and operations inside of each insurance type class
 
