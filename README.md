@@ -35,3 +35,8 @@
 
 ### 3. Comments about my code
 
+
+  One comment about my code is related to the TotalScore property in Insurance.cs. I decided to define this property as int nullable, then, when TotalScore is null the LifeInsuranceStatus is ineligible, otherwise, the increment and decrement are performed based on the rules inside that insurance type.
+  
+  Also I decided to set the TotalScore property as “private set” and the methods that change this property are defined in Insurance.cs. I used this strategy in order to have more control about how this property is changed. 
+
