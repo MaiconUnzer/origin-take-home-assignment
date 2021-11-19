@@ -13,8 +13,8 @@
 
 `docker build -t origin/take_home_assignment .`
 
-`docker run -p $your_machine_port_available:80 --name TakeHomeAssignment origin/take_home_assignment`
+`docker run -p $your_machine_available_port:80 --name TakeHomeAssignment origin/take_home_assignment`
 
-*$your_machine_port_available: replace this variable with the port that you want run the container*
+*$your_machine_available_port: replace this variable with the port that you want run the container*
 
-1.4. Open the url http://localhost:[$your_machine_port_available/swagger
+1.4. Open the url http://localhost:$your_machine_port_available/swagger
