@@ -18,3 +18,5 @@
 *$your_machine_available_port: replace this variable with the port that you want run the container*
 
 1.4. Open the url http://localhost:$your_machine_port_available/swagger
+
+*$your_machine_available_port: replace this variable with the port that you are running the container created in the previous step*
