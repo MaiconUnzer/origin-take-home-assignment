@@ -7,7 +7,7 @@
 
 1.2. Open the terminal and set the terminal's root directory to the project's folder
 
-`cd origin-take-home-assignment/`
+`> cd origin-take-home-assignment/`
 
 1.3. Inside your terminal type the following code:
 
