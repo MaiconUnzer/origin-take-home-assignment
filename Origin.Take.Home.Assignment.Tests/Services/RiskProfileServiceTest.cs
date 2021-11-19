@@ -30,13 +30,13 @@ namespace Origin.Take.Home.Assignment.Tests.Services
             };
 
             //Act
-            var response = riskProfileService.GetRiskProfile(riskProfileRequest);
+            var riskProfileResponse = riskProfileService.GetRiskProfile(riskProfileRequest);
 
             //Assert
-            Assert.Equal(LifeInsuranceStatus.Regular, response.Auto);
-            Assert.Equal(LifeInsuranceStatus.Inelegible, response.Disability);
-            Assert.Equal(LifeInsuranceStatus.Economic, response.Home);
-            Assert.Equal(LifeInsuranceStatus.Regular, response.Life);
+            Assert.Equal(LifeInsuranceStatus.Regular, riskProfileResponse.Auto);
+            Assert.Equal(LifeInsuranceStatus.Inelegible, riskProfileResponse.Disability);
+            Assert.Equal(LifeInsuranceStatus.Economic, riskProfileResponse.Home);
+            Assert.Equal(LifeInsuranceStatus.Regular, riskProfileResponse.Life);
         }
     }
 }
